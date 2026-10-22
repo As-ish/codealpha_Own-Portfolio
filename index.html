@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashish Gupta — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- corner registration marks -->
+<div class="reg-mark reg-tl" aria-hidden="true"></div>
+<div class="reg-mark reg-tr" aria-hidden="true"></div>
+<div class="reg-mark reg-bl" aria-hidden="true"></div>
+<div class="reg-mark reg-br" aria-hidden="true"></div>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="mark">AG<span class="mark-dot">.</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#internships" class="nav-link">Internships</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="hero-kicker">Full-Stack Developer · Budaun, Uttar Pradesh</p>
+      <h1 class="hero-name" id="stencilName">
+        <span class="line" data-text="ASHISH">ASHISH</span>
+        <span class="line" data-text="GUPTA">GUPTA</span>
+      </h1>
+      <p class="hero-tagline">Six years reading process spec-sheets on a paint line, now writing them in JavaScript. I build responsive, full-stack web and mobile products — and I still think in tolerances.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See the work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+
+      <div class="readout" role="group" aria-label="Quick facts">
+        <div class="readout-item">
+          <span class="readout-value">MCA</span>
+          <span class="readout-label">Invertis University · CGPA 7.89</span>
+        </div>
+        <div class="readout-item">
+          <span class="readout-value">4</span>
+          <span class="readout-label">Full-stack &amp; frontend internships</span>
+        </div>
+        <div class="readout-item">
+          <span class="readout-value">3+ yrs</span>
+          <span class="readout-label">Industrial engineering, pre-code</span>
+        </div>
+        <div class="readout-item">
+          <span class="readout-value">5</span>
+          <span class="readout-label">Shipped personal projects</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="section-tag">01 / About</span>
+      <h2>From the paint booth to the browser</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>I spent the first stretch of my career on the factory floor — running robotic paint cells at Motherson Automotive, holding process quality on Mahindra &amp; Mahindra's paint shop line, and later closing out PTCED work at Tata Motors. That work taught me to read a spec sheet the way most people read a sentence: tolerances, sequencing, what happens if one station falls out of sync.</p>
+        <p>I'm now finishing an MCA at Invertis University and building full-stack products — React and React Native on the front end, Node/Express and MongoDB or MySQL underneath. The habit hasn't changed: I still care more about whether a system holds up under real conditions than whether the demo looks good.</p>
+        <div class="about-facts">
+          <div class="about-fact"><strong>Based in</strong><span>Budaun, Uttar Pradesh</span></div>
+          <div class="about-fact"><strong>Studying</strong><span>MCA, Invertis University Bareilly</span></div>
+          <div class="about-fact"><strong>Background</strong><span>Chemical &amp; Paint Engineering</span></div>
+          <div class="about-fact"><strong>Now building</strong><span>React · Node · MongoDB</span></div>
+        </div>
+      </div>
+      <div class="about-panel reveal">
+        <div class="panel-label">Process Log</div>
+        <ul class="process-log">
+          <li><span class="pl-year">2016</span>Started Diploma in Chemical (Paint) Engineering</li>
+          <li><span class="pl-year">2019</span>Robotic engineer, paint booth — Motherson Automotive</li>
+          <li><span class="pl-year">2021</span>Process quality engineer — Mahindra &amp; Mahindra</li>
+          <li><span class="pl-year">2022</span>Assistant engineer — RR Parkon &amp; Tata Motors</li>
+          <li><span class="pl-year">2025</span>Completed BCA · began MCA · shipped first web projects</li>
+          <li><span class="pl-year">2026</span>Four development internships, back to back</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE TIMELINE -->
+  <section class="section" id="experience">
+    <div class="section-head">
+      <span class="section-tag">02 / Experience</span>
+      <h2>On the line</h2>
+      <p class="section-sub">Four years of engineering roles in automotive paint shops — the foundation the code is built on.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-date">Jul 2019 – Jan 2020</div>
+        <div class="tl-body">
+          <h3>Technical Engineering Trainee</h3>
+          <p class="tl-org">Motherson Automotive — Ahmedabad, Gujarat</p>
+          <p>Robotic engineer in the paint booth: kept automated spray cells calibrated and running to spec.</p>
+        </div>
+      </li>
+      <li class="timeline-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-date">Jan 2020 – Sep 2021</div>
+        <div class="tl-body">
+          <h3>Diploma Engineering Trainee</h3>
+          <p class="tl-org">Mahindra &amp; Mahindra — Nagpur, Maharashtra</p>
+          <p>Process quality engineer across the paint shop, owning consistency from station to station.</p>
+        </div>
+      </li>
+      <li class="timeline-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-date">Sep 2021 – Jan 2022</div>
+        <div class="tl-body">
+          <h3>Assistant Engineer</h3>
+          <p class="tl-org">RR Parkon — Khopoli, Maharashtra</p>
+          <p>Paint shop engineer, supporting day-to-day line operations and process checks.</p>
+        </div>
+      </li>
+      <li class="timeline-item reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-date">Jan 2022 – Aug 2022</div>
+        <div class="tl-body">
+          <h3>Assistant Engineer</h3>
+          <p class="tl-org">Tata Motors — Pune, Maharashtra</p>
+          <p>PTCED shop engineer, closing out the pre-treatment / electro-deposition stage of the line.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- INTERNSHIPS -->
+  <section class="section section-alt" id="internships">
+    <div class="section-head">
+      <span class="section-tag">03 / Internships</span>
+      <h2>Where the stack got built</h2>
+      <p class="section-sub">Four back-to-back internships through 2026, stacking frontend, backend, and mobile.</p>
+    </div>
+
+    <div class="intern-list">
+      <div class="intern-card reveal">
+        <div class="intern-top">
+          <h3>Android/iOS FullStack Development — Virtual Internship</h3>
+          <span class="intern-date">Apr – Jun 2026</span>
+        </div>
+        <p class="intern-org">Google, via EduSkills Foundation · 2 months</p>
+        <p>Built and trained Android development models using Java and React Native, wired to MySQL and MongoDB through a Node/Express REST API.</p>
+        <div class="intern-tags"><span>Java</span><span>React Native</span><span>Node.js</span><span>Express</span><span>MySQL</span><span>MongoDB</span></div>
+      </div>
+
+      <div class="intern-card reveal">
+        <div class="intern-top">
+          <h3>FullStack Web Development Internship</h3>
+          <span class="intern-date">Jun – Sep 2026</span>
+        </div>
+        <p class="intern-org">Unified Mentor Pvt. Ltd. · 3 months</p>
+        <p>Built web applications with HTML5, CSS3, JavaScript, and React, backed by MySQL/MongoDB via a Node/Express REST API.</p>
+        <div class="intern-tags"><span>HTML5</span><span>CSS3</span><span>React.js</span><span>Node.js</span><span>REST API</span></div>
+      </div>
+
+      <div class="intern-card reveal">
+        <div class="intern-top">
+          <h3>Java FullStack Development — Virtual Internship</h3>
+          <span class="intern-date">Jul – Sep 2026</span>
+        </div>
+        <p class="intern-org">Eduskill, via EduSkills Foundation · 2 months</p>
+        <p>Built web applications with Java, HTML5, Bootstrap and ES6 JavaScript, connected to MySQL through Node/Express.</p>
+        <div class="intern-tags"><span>Java</span><span>Bootstrap</span><span>JavaScript ES6</span><span>MySQL</span></div>
+      </div>
+
+      <div class="intern-card reveal">
+        <div class="intern-top">
+          <h3>Frontend Web Development Internship</h3>
+          <span class="intern-date">Sep – Oct 2026</span>
+        </div>
+        <p class="intern-org">Code Alpha Pvt. Ltd. · 1 month</p>
+        <p>Built responsive frontend interfaces with HTML5, CSS3, JavaScript and React.</p>
+        <div class="intern-tags"><span>HTML5</span><span>CSS3</span><span>React.js</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="section-tag">04 / Projects</span>
+      <h2>Selected builds</h2>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card reveal" style="--swatch:#FF6B35">
+        <div class="project-swatch"></div>
+        <div class="project-body">
+          <span class="project-date">Jun – Jul 2026</span>
+          <h3>Smart Wall Paint Visualizer</h3>
+          <p>Full-stack e-commerce site for previewing wall paint colours before you buy — product listing, product detail, and cart, built end to end.</p>
+          <div class="project-tags"><span>React.js</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--swatch:#D6432B">
+        <div class="project-swatch"></div>
+        <div class="project-body">
+          <span class="project-date">Mar – Apr 2026</span>
+          <h3>Silent SoS Emergency Web App</h3>
+          <p>A full-stack emergency-alert application covering the core flows from homepage through to a working cart-style UI, built solo.</p>
+          <div class="project-tags"><span>React.js</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--swatch:#4FD1C5">
+        <div class="project-swatch"></div>
+        <div class="project-body">
+          <span class="project-date">Jul – Aug 2026</span>
+          <h3>Inventory Management App</h3>
+          <p>A responsive mobile app for tracking stock — add, remove, and browse items — built with React Native.</p>
+          <div class="project-tags"><span>React Native</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--swatch:#8C6BFF">
+        <div class="project-swatch"></div>
+        <div class="project-body">
+          <span class="project-date">Nov – Dec 2025</span>
+          <h3>Responsive Music Player</h3>
+          <p>A browser-based music player with play/pause, track duration, and forward/reverse controls, laid out with Flexbox and Grid.</p>
+          <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="--swatch:#F2B705">
+        <div class="project-swatch"></div>
+        <div class="project-body">
+          <span class="project-date">May – Jun 2025</span>
+          <h3>Responsive Image Gallery</h3>
+          <p>A media-query-driven gallery with a planned homepage, nav, and section structure — the first project of the pivot.</p>
+          <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="section-head">
+      <span class="section-tag">05 / Skills</span>
+      <h2>Toolbox</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <h3>Languages &amp; Frameworks</h3>
+        <ul class="chip-list">
+          <li>C++</li><li>Core Java</li><li>JavaScript</li><li>HTML/CSS</li>
+          <li>Bootstrap</li><li>Tailwind CSS</li><li>React.js</li><li>React Native</li>
+          <li>Node.js</li><li>Express.js</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Databases</h3>
+        <ul class="chip-list">
+          <li>MySQL</li><li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Tools &amp; IDEs</h3>
+        <ul class="chip-list">
+          <li>GitHub</li><li>VS Code</li><li>Jupyter Notebook</li><li>Android Studio</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Other</h3>
+        <ul class="chip-list">
+          <li>MS Office</li><li>REST APIs</li><li>Process &amp; quality documentation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-head">
+      <span class="section-tag">06 / Education</span>
+      <h2>Coursework on record</h2>
+    </div>
+
+    <div class="edu-list">
+      <div class="edu-row reveal">
+        <div class="edu-main">
+          <h3>Master of Computer Application</h3>
+          <p>Invertis University, Bareilly — in progress</p>
+        </div>
+        <div class="edu-score">
+          <span class="edu-score-value">7.89</span>
+          <span class="edu-score-label">CGPA, first year</span>
+        </div>
+      </div>
+      <div class="edu-row reveal">
+        <div class="edu-main">
+          <h3>Bachelor of Computer Application</h3>
+          <p>Ace (P.G.) Institute of Management &amp; Technology, Budaun — 2022–2025</p>
+        </div>
+        <div class="edu-score">
+          <span class="edu-score-value">68.3%</span>
+        </div>
+      </div>
+      <div class="edu-row reveal">
+        <div class="edu-main">
+          <h3>Diploma, Chemical (Paint) Engineering</h3>
+          <p>Govt. Polytechnic, Budaun — 2016–2019</p>
+        </div>
+        <div class="edu-score">
+          <span class="edu-score-value">71%</span>
+        </div>
+      </div>
+      <div class="edu-row reveal">
+        <div class="edu-main">
+          <h3>Senior Secondary (12th)</h3>
+          <p>S.K.I.C., Budaun — 2016</p>
+        </div>
+        <div class="edu-score">
+          <span class="edu-score-value">59.4%</span>
+        </div>
+      </div>
+      <div class="edu-row reveal">
+        <div class="edu-main">
+          <h3>Higher Secondary (10th)</h3>
+          <p>S.K.I.C., Budaun — 2014</p>
+        </div>
+        <div class="edu-score">
+          <span class="edu-score-value">76%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-panel reveal">
+      <div class="panel-label">Certifications &amp; Recognition</div>
+      <ul class="cert-list">
+        <li>Web Development Fundamentals — IBM SkillsBuild</li>
+        <li>Google Android Development Virtual Internship — EduSkills</li>
+        <li>FullStack Web Development — LinkedIn Learning</li>
+        <li>Graph Theory &amp; DSA Programming Camp — AlgoUniversity</li>
+        <li>Boardroom Battle Competition — Infinity Personality Development</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner">
+      <div class="section-head">
+        <span class="section-tag">07 / Contact</span>
+        <h2>Let's build something that holds up.</h2>
+        <p class="section-sub">Open to full-stack and frontend roles, internship-to-full-time pipelines, and freelance builds.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card reveal" href="mailto:8000ashishgupta@gmail.com">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">8000ashishgupta@gmail.com</span>
+        </a>
+        <a class="contact-card reveal" href="tel:+918868984621">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 3c1 3 2 5 3.5 6.5C11 11 12 12 13.5 13.5c1.5 1.5 3.5 2.5 6.5 3.5l1-3-4-2-2 1.5c-1.5-1-3-2.5-4-4L12.5 7l-2-4-3 1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 88689 84621</span>
+        </a>
+        <a class="contact-card reveal" href="https://github.com/As-ish" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z" fill="currentColor"/></svg>
+          </span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/As-ish</span>
+        </a>
+        <a class="contact-card reveal" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="8.5" r="1.2" fill="currentColor"/><path d="M7 11.5h2v6H7zM11 11.5h2v.9c.5-.7 1.2-1.1 2.1-1.1 1.7 0 2.4 1.1 2.4 3v3.2h-2v-2.9c0-1-.4-1.5-1.1-1.5-.8 0-1.4.6-1.4 1.7v2.7h-2z" fill="currentColor"/></svg>
+          </span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">View profile</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Ashish Gupta — Budaun, Uttar Pradesh</p>
+  <p class="footer-note">Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
